@@ -1,0 +1,93 @@
+.footer{
+    background-color: rgb(44, 44, 66);
+    padding: 4rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#formdiv {
+    text-align: left;
+}
+
+@media only screen and (max-width: 576px) {
+    header
+    {
+        font-size: 0.8rem;
+        background-color: rgb(127, 127, 153);
+        color: white;
+        padding: 2rem;
+        background-image: url("/images/codebgsmall.jpg");
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    header
+    {
+        font-size: 0.8rem;
+        background-color: white;
+        color: white;
+        padding: 2rem;
+        background-image: url("/images/codebgsmall.jpg");
+    }
+}
+@media only screen and (max-width: 768px) {
+    header
+    {
+        font-size: 1rem;
+        background-color: white;
+        color: white;
+        padding: 2rem;
+        background-image: url("/images/codebgmed.jpg");
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    header
+    {
+        font-size: 1rem;
+        background-color: white;
+        color: white;
+        padding: 2rem;
+        background-image: url("/images/codebg.jpg");
+    }
+}
+
+#image{
+    width: 40%;
+}
+
+#exampleModal
+{
+    color: black;
+}
+.container
+{
+    padding: 1rem;
+}
+#contactText{
+    padding-bottom: 1%;
+  }
+  
+ .socials
+ {
+     padding: 1%;
+ }
+
+ @keyframes socialanimation {
+    0% {
+        filter: grayscale(110%);
+    }
+
+    75% {
+        filter: hue-rotate(90deg);
+    }
+
+    100% {
+        filter: sepia(100%);
+    }
+ }
+ .socials:hover{
+     animation-name: socialanimation;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+ }
