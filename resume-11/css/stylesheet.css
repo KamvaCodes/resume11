@@ -16,7 +16,7 @@
         background-color: rgb(127, 127, 153);
         color: white;
         padding: 2rem;
-        background-image: url("/images/codebgsmall.jpg");
+        background-image: url("/resume-11/images/codebgsmall.jpg");
     }
 }
 
@@ -27,7 +27,7 @@
         background-color: white;
         color: white;
         padding: 2rem;
-        background-image: url("/images/codebgsmall.jpg");
+        background-image: url("/resume-11/images/codebgsmall.jpg");
     }
 }
 @media only screen and (max-width: 768px) {
@@ -37,7 +37,7 @@
         background-color: white;
         color: white;
         padding: 2rem;
-        background-image: url("/images/codebgmed.jpg");
+        background-image: url("/resume-11/images/codebgmed.jpg");
     }
 }
 
@@ -48,7 +48,7 @@
         background-color: white;
         color: white;
         padding: 2rem;
-        background-image: url("/images/codebg.jpg");
+        background-image: url("/resume-11/images/codebg.jpg");
     }
 }
 
