@@ -15,10 +15,19 @@
         font-size: 0.8rem;
         background-color: rgb(127, 127, 153);
         color: white;
-        padding: 2rem;
-        background-image: url("/resume-11/images/codebgsmall.jpg");
+        background-image: url("/resume-11/images/jeremy.jpg");
+        
     }
+    .carousel {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
 }
+
+
 
 @media only screen and (min-width: 576px) {
     header
@@ -26,34 +35,61 @@
         font-size: 0.8rem;
         background-color: white;
         color: white;
-        padding: 2rem;
-        background-image: url("/resume-11/images/codebgsmall.jpg");
+        background-image: url("/resume-11/images/jeremy.jpg");
+      
     }
-}
-@media only screen and (max-width: 768px) {
-    header
-    {
-        font-size: 1rem;
-        background-color: white;
-        color: white;
-        padding: 2rem;
-        background-image: url("/resume-11/images/codebgmed.jpg");
-    }
+    .carousel {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
+
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (min-width: 768px) {
     header
     {
+        height: 120%;
         font-size: 1rem;
         background-color: white;
         color: white;
-        padding: 2rem;
-        background-image: url("/resume-11/images/codebg.jpg");
+        background-image:url("/resume-11/images/jeremy.jpg"); 
     }
+    .carousel {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
+    
+   
+}
+
+@media only screen and (min-width: 1600px) {
+    header
+    {
+        height: 120%;
+        font-size: 1rem;
+        background-color: white;
+        color: white;
+        background-image: url("/resume-11/images/jeremy.jpg");
+     }
+    .carousel {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
+    
 }
 
 #image{
-    width: 40%;
+    width: 30%;
+    margin: 1rem;
 }
 
 #exampleModal
