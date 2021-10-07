@@ -15,7 +15,7 @@
         font-size: 0.8rem;
         background-color: rgb(127, 127, 153);
         color: white;
-        background-image: url("/resume-11/images/jeremy.jpg");
+        background-image: url("/resume-11/images/miguel.jpg");
         
     }
     .carousel {
@@ -35,7 +35,7 @@
         font-size: 0.8rem;
         background-color: white;
         color: white;
-        background-image: url("/resume-11/images/jeremy.jpg");
+        background-image: url("/resume-11/images/miguel.jpg");
       
     }
     .carousel {
@@ -55,7 +55,7 @@
         font-size: 1rem;
         background-color: white;
         color: white;
-        background-image:url("/resume-11/images/jeremy.jpg"); 
+        background-image:url("/resume-11/images/miguel.jpg"); 
     }
     .carousel {
         width: 60%;
@@ -75,7 +75,7 @@
         font-size: 1rem;
         background-color: white;
         color: white;
-        background-image: url("/resume-11/images/jeremy.jpg");
+        background-image: url("/resume-11/images/miguel.jpg");
      }
     .carousel {
         width: 50%;
@@ -83,6 +83,11 @@
         margin-left: auto;
         margin-right: auto;
         padding: 1rem;
+      }
+
+      .interestscard
+      {
+
       }
     
 }
