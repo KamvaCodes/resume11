@@ -9,13 +9,20 @@
     text-align: left;
 }
 
+.nav-item:hover
+{
+    background: #0275d8;
+}
+
+
+
 @media only screen and (max-width: 576px) {
     header
     {
         font-size: 0.8rem;
         background-color: rgb(127, 127, 153);
         color: white;
-        background-image: url("/resume-11/images/miguel.jpg");
+        background-image: url("/resume-11/images/welcome.jpg");
         
     }
     .carousel {
@@ -25,18 +32,39 @@
         margin-right: auto;
         padding: 1rem;
       }
+      .bg-transparent {
+        background: #000 !important;
+    }
+    .navbar-brand {
+        color: rgb(59, 59, 172);
+    }
+
+
+    
+
+    .col-md-3{
+        width: 60%;
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .lg-3
+    {
+        width: 60%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
 }
 
-
-
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 768px) {
     header
     {
         font-size: 0.8rem;
-        background-color: white;
+        background-color: rgb(127, 127, 153);
         color: white;
-        background-image: url("/resume-11/images/miguel.jpg");
-      
+        background-image: url("/resume-11/images/welcome.jpg");
+        
     }
     .carousel {
         width: 100%;
@@ -45,7 +73,27 @@
         margin-right: auto;
         padding: 1rem;
       }
-
+      .bg-transparent {
+        background: #000 !important;
+    }
+    
+    .navbar-brand {
+        color: rgb(59, 59, 172);
+    }
+    .col-md-3{
+        width: 60%;
+        padding: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .lg-3
+    {
+        width: 60%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -55,27 +103,7 @@
         font-size: 1rem;
         background-color: white;
         color: white;
-        background-image:url("/resume-11/images/miguel.jpg"); 
-    }
-    .carousel {
-        width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1rem;
-      }
-    
-   
-}
-
-@media only screen and (min-width: 1600px) {
-    header
-    {
-        height: 120%;
-        font-size: 1rem;
-        background-color: white;
-        color: white;
-        background-image: url("/resume-11/images/miguel.jpg");
+        background-image: url("/resume-11/images/welcome.jpg");
      }
     .carousel {
         width: 50%;
@@ -85,16 +113,87 @@
         padding: 1rem;
       }
 
-      .interestscard
-      {
+      .bg-transparent {
+        transition:0.75s ease;
+    }
+    .bg-transparent.scrolled {
+        background:#000 !important;
+    }
+    .navbar-brand.scrolled {
+        color: rgb(59, 59, 172);
+    }
 
-      }
+    .navbar-nav.ml-auto
+    {
+        margin-right: 1rem;
+    }
+
+    .navbar-brand
+{
+    margin-left: 2rem;
+}
+  
     
+    .col-md-3{
+        width: 120%;
+      
+    }
+
+    .lg-3
+    {
+        width: 60%;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+      
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    header
+    {
+        height: 120%;
+        font-size: 1rem;
+        background-color: white;
+        color: white;
+        background-image: url("/resume-11/images/welcome.jpg");
+     }
+    .carousel {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+      }
+      
+     
+      .bg-transparent {
+        transition:0.75s ease;
+    }
+    .bg-transparent.scrolled {
+        background:#000 !important;
+    }
+    .navbar-brand
+{
+    margin-right: 4rem;
+}
+.navbar-nav.ml-auto
+{
+    margin-right: 1rem;
+}
+.navbar-nav.w-100
+{
+    margin-left: 4rem;
+}
+
 }
 
 #image{
     width: 30%;
-    margin: 1rem;
+    margin: 3rem;
 }
 
 #exampleModal
@@ -132,3 +231,12 @@
      animation-duration: 3s;
      animation-iteration-count: infinite;
  }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
